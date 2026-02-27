@@ -513,29 +513,33 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Project Card 1: VBM Landing Page -->
-                    <div class="group perspective-1000 relative h-[420px] w-full cursor-pointer animate-on-scroll"
-                        onclick="window.open('https://vendorboothmedan.com/', '_blank')">
+                    <div class="group perspective-1000 relative h-[420px] w-full cursor-pointer animate-on-scroll">
                         <div
                             class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180">
                             <!-- Front Face -->
                             <div
                                 class="absolute inset-0 w-full h-full backface-hidden bg-[#2D333B] rounded-xl border border-slate-700 overflow-hidden flex flex-col flip-card-front shadow-lg">
                                 <div
-                                    class="relative h-48 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
+                                    class="relative h-44 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
                                     <span class="material-symbols-outlined text-[80px] text-cyan-400">web</span>
                                 </div>
                                 <div class="p-5 flex flex-col flex-1 bg-gradient-to-b from-[#2D333B] to-[#252A31]">
                                     <h4 class="text-cyan-400 text-xl font-bold mb-2">VBM Landing Page</h4>
-                                    <p class="text-gray-300 text-sm mb-4 line-clamp-2 leading-relaxed">A modern and
+                                    <p class="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed">A modern and
                                         responsive landing page website built with React and Tailwind CSS for presenting
                                         business services.</p>
-                                    <div class="mt-auto flex flex-wrap gap-2">
+                                    <div class="flex flex-wrap gap-2 mb-4">
                                         <span
                                             class="px-3 py-1 rounded-full bg-cyan-900/30 text-cyan-400 text-xs font-semibold border border-cyan-800/50">React</span>
                                         <span
                                             class="px-3 py-1 rounded-full bg-cyan-900/30 text-cyan-400 text-xs font-semibold border border-cyan-800/50">Tailwind
                                             CSS</span>
                                     </div>
+                                    <a class="mt-auto w-full py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold rounded-lg text-center transition-colors flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20 text-sm"
+                                        href="https://vendorboothmedan.com/" target="_blank"
+                                        onclick="event.stopPropagation()">
+                                        Visit Website <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -550,8 +554,8 @@
                                 <ul
                                     class="text-gray-300 text-sm space-y-3 flex-1 overflow-y-auto pr-2 custom-scrollbar">
                                     <li class="flex items-start gap-2"><span
-                                            class="text-cyan-400 font-bold mt-1">•</span> Fully responsive layout across
-                                        all devices</li>
+                                            class="text-cyan-400 font-bold mt-1">•</span> Fully responsive layout
+                                        across all devices</li>
                                     <li class="flex items-start gap-2"><span
                                             class="text-cyan-400 font-bold mt-1">•</span> Modern UI/UX with smooth
                                         scroll animations</li>
@@ -576,31 +580,36 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Project Card 2: LacakDuit -->
                     <div class="group perspective-1000 relative h-[420px] w-full cursor-pointer animate-on-scroll shrink-0"
-                        style="transition-delay: 100ms;"
-                        onclick="window.open('https://lacak-duit.vercel.app/', '_blank')">
+                        style="transition-delay: 100ms;">
                         <div
                             class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180">
                             <!-- Front Face -->
                             <div
                                 class="absolute inset-0 w-full h-full backface-hidden bg-[#2D333B] rounded-xl border border-slate-700 overflow-hidden flex flex-col flip-card-front shadow-lg">
                                 <div
-                                    class="relative h-48 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
+                                    class="relative h-44 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
                                     <span
                                         class="material-symbols-outlined text-[80px] text-[#34d399]">account_balance_wallet</span>
                                 </div>
                                 <div class="p-5 flex flex-col flex-1 bg-gradient-to-b from-[#2D333B] to-[#252A31]">
                                     <h4 class="text-[#34d399] text-xl font-bold mb-2">LacakDuit</h4>
-                                    <p class="text-gray-300 text-sm mb-4 line-clamp-2 leading-relaxed">A minimalist
+                                    <p class="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed">A minimalist
                                         expense tracker application for monitoring personal daily finances, complete
                                         with budget management capabilities.</p>
-                                    <div class="mt-auto flex flex-wrap gap-2">
+                                    <div class="flex flex-wrap gap-2 mb-4">
                                         <span
                                             class="px-3 py-1 rounded-full bg-emerald-900/30 text-[#34d399] text-xs font-semibold border border-emerald-800/50">Flutter</span>
                                         <span
                                             class="px-3 py-1 rounded-full bg-emerald-900/30 text-[#34d399] text-xs font-semibold border border-emerald-800/50">Dart</span>
                                     </div>
+                                    <a class="mt-auto w-full py-2.5 bg-[#34d399] hover:bg-emerald-400 text-slate-900 font-bold rounded-lg text-center transition-colors flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 text-sm"
+                                        href="https://lacak-duit.vercel.app/" target="_blank"
+                                        onclick="event.stopPropagation()">
+                                        Visit Website <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -641,26 +650,26 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Project Card 3: Orange Ripeness Detection -->
                     <div class="group perspective-1000 relative h-[420px] w-full cursor-pointer animate-on-scroll shrink-0"
-                        style="transition-delay: 200ms;"
-                        onclick="window.open('https://github.com/Yogasandhy/orange-ripeness-detection-yolov8', '_blank')">
+                        style="transition-delay: 200ms;">
                         <div
                             class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180">
                             <!-- Front Face -->
                             <div
                                 class="absolute inset-0 w-full h-full backface-hidden bg-[#2D333B] rounded-xl border border-slate-700 overflow-hidden flex flex-col flip-card-front shadow-lg">
                                 <div
-                                    class="relative h-48 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
+                                    class="relative h-44 w-full overflow-hidden flex items-center justify-center border-b border-slate-700/50 bg-[#1e2329]">
                                     <span
                                         class="material-symbols-outlined text-[80px] text-[#fb923c]">center_focus_strong</span>
                                 </div>
                                 <div class="p-5 flex flex-col flex-1 bg-gradient-to-b from-[#2D333B] to-[#252A31]">
                                     <h4 class="text-[#fb923c] text-xl font-bold mb-2">Orange Detection</h4>
-                                    <p class="text-gray-300 text-sm mb-4 line-clamp-2 leading-relaxed">An AI-powered
+                                    <p class="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed">An AI-powered
                                         computer vision system utilizing Python and YOLOv8 to automatically detect and
                                         classify the ripeness levels of oranges.</p>
-                                    <div class="mt-auto flex flex-wrap gap-2">
+                                    <div class="flex flex-wrap gap-2 mb-4">
                                         <span
                                             class="px-3 py-1 rounded-full bg-orange-900/30 text-[#fb923c] text-xs font-semibold border border-orange-800/50">Python</span>
                                         <span
@@ -668,6 +677,11 @@
                                         <span
                                             class="px-3 py-1 rounded-full bg-orange-900/30 text-[#fb923c] text-xs font-semibold border border-orange-800/50">CV</span>
                                     </div>
+                                    <a class="mt-auto w-full py-2.5 bg-[#fb923c] hover:bg-orange-400 text-slate-900 font-bold rounded-lg text-center transition-colors flex items-center justify-center gap-2 shadow-lg shadow-orange-500/20 text-sm"
+                                        href="https://github.com/Yogasandhy/orange-ripeness-detection-yolov8"
+                                        target="_blank" onclick="event.stopPropagation()">
+                                        View Project <span class="material-symbols-outlined text-sm">open_in_new</span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -696,8 +710,9 @@
                                 </ul>
                                 <div class="mt-4 flex gap-2 w-full">
                                     <a class="flex-1 py-3 bg-[#fb923c] hover:bg-orange-400 text-slate-900 font-bold rounded-lg text-center transition-colors flex items-center justify-center gap-2 shadow-lg shadow-orange-500/20"
-                                        href="#" target="_blank" title="View Website">
-                                        Website <span class="material-symbols-outlined text-sm">language</span>
+                                        href="https://github.com/Yogasandhy/orange-ripeness-detection-yolov8"
+                                        target="_blank" title="View Project">
+                                        Project <span class="material-symbols-outlined text-sm">language</span>
                                     </a>
                                     <a class="flex-1 py-3 bg-slate-700 hover:bg-slate-600 text-white font-bold rounded-lg text-center transition-colors flex items-center justify-center gap-2 shadow-lg"
                                         href="https://github.com/Yogasandhy/orange-ripeness-detection-yolov8"
