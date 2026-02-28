@@ -44,51 +44,7 @@
             },
         }
     </script>
-    <style>
-        body {
-            min-height: max(884px, 100dvh);
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
-
-        .animate-on-scroll.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* 3D Flip Card Styles */
-        .perspective-1000 {
-            perspective: 1000px;
-        }
-
-        .transform-style-3d {
-            transform-style: preserve-3d;
-        }
-
-        .backface-hidden {
-            backface-visibility: hidden;
-        }
-
-        .rotate-y-180 {
-            transform: rotateY(180deg);
-        }
-
-        .flip-card-front {
-            z-index: 2;
-        }
-
-        .flip-card-back {
-            transform: rotateY(180deg);
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body
@@ -927,23 +883,7 @@
         </footer>
     </div>
 
-    <script>
-        // Intersection Observer for scroll animations
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    // Optional: Stop observing once animated
-                    // observer.unobserve(entry.target);
-                }
-            });
-        }, {
-            threshold: 0.1 // Trigger when 10% of element is visible
-        });
-
-        const hiddenElements = document.querySelectorAll('.animate-on-scroll');
-        hiddenElements.forEach((el) => observer.observe(el));
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
